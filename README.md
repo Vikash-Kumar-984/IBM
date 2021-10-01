@@ -18,6 +18,8 @@ Description -->  We have to make a model using IBM TOOLS(Watson Assistant, Auto 
 
 3. --> CHATBOT
 
+https://web-chat.global.assistant.watson.cloud.ibm.com/preview.html?region=eu-gb&integrationID=951749f0-e244-46c9-98f0-19f42fdc1909&serviceInstanceID=5ad03ea4-5ea9-4608-9ec9-cf0813f7430b
+
 ![Screenshot_20211001-210347](https://user-images.githubusercontent.com/80582252/135650429-ea0873f0-560f-4a43-8d47-50a4e3c00231.jpg)
 
 4. --> About US.
