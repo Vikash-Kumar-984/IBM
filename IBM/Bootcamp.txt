@@ -1,0 +1,41 @@
+bootcamp_1
+https://www.youtube.com/watch?v=xflR_-0Aog8
+
+bootcamp_2
+https://www.youtube.com/watch?v=6UdeoPqrTCo
+
+bootcamp_3
+https://www.youtube.com/watch?v=gqpJYIi2NIo
+
+bootcamp_4
+https://www.youtube.com/watch?v=foB9o-QmccU
+
+
+global.set("age",msg.payload.age)
+global.set("children",msg.payload.children)
+global.set("bmi",msg.payload.bmi)
+var apikey="YBYHMMy9sxRUw8gsHqcRUeUScBECOP32oe6vPc_2dCpp"
+msg.headers={"content-type":"application/x-www-form-urlencoded"}
+msg.payload={"grant_type":"urn:ibm:params:oauth:grant-type:apikey","apikey":apikey}
+return msg;
+
+
+
+var age = global.get("age") 
+var sex = global.get("sex") 
+var bmi = global.get("bmi") 
+var children = global.get("children") 
+var smoker = global.get("smoker") 
+var region = global.get("region") 
+var token=msg.payload.access_token 
+msg.headers={'Content-Type': 'application/json',"Authorization":"Bearer "+token,"Accept":"application/json"} 
+msg.payload={"input_data":[{"fields": [["age", "sex", "bmi","children", "smoker",  "region"]],"values": [[age,sex,bmi,children,smoker,region]]}]} 
+return msg;
+
+
+my_chatbot restaurant_bot
+https://web-chat.global.assistant.watson.cloud.ibm.com/preview.html?region=eu-gb&integrationID=97a001ab-b429-464a-a2a7-5733c0976032&serviceInstanceID=c524d22f-3bd3-4679-9b10-81386af51e2
+
+
+https://iam.cloud.ibm.com/identity/token
+
