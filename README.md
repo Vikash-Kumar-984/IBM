@@ -2,8 +2,11 @@
 IBM_Smartinternz
 
 We team(Ashish Kumar, Vikash Kumar & Abhishek Lohani) made it to the Round_3(THE FINALE) and even completed it as well.
+
 Project_Name -->  IPL MATCH PREDICTION
+
 Description -->  We have to make a model using IBM TOOLS(Watson Assistant, Auto AI & Red_node) that will predict the winning Team on giving the Input. Aslo we have to create the CHATBOT using WATSON ASSISTANT.
+
 
 1. --> Prediction Model UI
 
